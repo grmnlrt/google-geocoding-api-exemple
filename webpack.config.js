@@ -1,7 +1,7 @@
 module.exports = {
   entry: "./src/browser.js",
   output: {
-    filename: "build/application.js"
+    filename: "src/browser.js"
   },
   devtool: "sourcemap"
 };

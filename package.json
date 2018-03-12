@@ -13,14 +13,5 @@
     "gh-pages-deploy": "^0.4.2",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.6.1"
-  },
-  "gh-pages-deploy": {
-    "staticpath": "dist",
-    "prep": [
-      "build-sass"
-    ]
-  },
-  "scripts": {
-    "deploy": "gh-pages-deploy"
   }
 }
