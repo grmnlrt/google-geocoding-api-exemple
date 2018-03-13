@@ -78,6 +78,7 @@ if (form) {
     fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${address.value}***&key=AIzaSyDhAHbgc4cJH48P6ZQJsCHORGCKLQ5Kd6Y`)
       .then(response => response.json())
       .then((data) => {
+        form.reset();
         coordinates.innerHTML = '';
         data.results.forEach((result) => {
           coordinates.insertAdjacentHTML('beforeend', `
